@@ -1,7 +1,17 @@
 {
+<<<<<<< HEAD
   "java.project.referencedLibraries": [
     "lib/gson-2.8.9.jar"
   ],
   "java.project.sourcePaths": ["src"],
   "java.project.outputPath": "bin"
 }
+=======
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\lucasjarek\\Downloads\\gson-2.10.1.jar"
+    ]
+}
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393

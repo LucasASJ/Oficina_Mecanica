@@ -17,7 +17,11 @@ public class OficinaView {
         System.out.println("3. Gerenciar Mecânicos");
         System.out.println("4. Gerenciar Ordens de Serviço");
         System.out.println("0. Sair");
+<<<<<<< HEAD
         System.out.print("Escolha uma opçao: ");
+=======
+        System.out.print("Escolha uma opção: ");
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393
         return lerInt();
     }
 
@@ -29,7 +33,11 @@ public class OficinaView {
         System.out.println("4. Atualizar Cliente");
         System.out.println("5. Remover Cliente");
         System.out.println("0. Voltar ao Menu Principal");
+<<<<<<< HEAD
         System.out.print("Escolha uma opçao: ");
+=======
+        System.out.print("Escolha uma opção: ");
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393
         return lerInt();
     }
     
@@ -41,7 +49,11 @@ public class OficinaView {
         System.out.println("4. Atualizar Veículo");
         System.out.println("5. Remover Veículo"); 
         System.out.println("0. Voltar ao Menu Principal");
+<<<<<<< HEAD
         System.out.print("Escolha uma opçao: ");
+=======
+        System.out.print("Escolha uma opção: ");
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393
         return lerInt();
     }
 
@@ -52,7 +64,11 @@ public class OficinaView {
         System.out.println("3. Atualizar Mecânico");
         System.out.println("4. Remover Mecânico"); 
         System.out.println("0. Voltar ao Menu Principal");
+<<<<<<< HEAD
         System.out.print("Escolha uma opçao: ");
+=======
+        System.out.print("Escolha uma opção: ");
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393
         return lerInt();
     }
 
@@ -66,7 +82,11 @@ public class OficinaView {
         System.out.println("6. Listar Ordens de Serviço por Status");
         System.out.println("7. Remover Ordem de Serviço");
         System.out.println("0. Voltar ao Menu Principal");
+<<<<<<< HEAD
         System.out.print("Escolha uma opçao: ");
+=======
+        System.out.print("Escolha uma opção: ");
+>>>>>>> e26d9a511dea740029b7ad7dbb63621ff1591393
         return lerInt();
     }
 
