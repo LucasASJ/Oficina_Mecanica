@@ -1,0 +1,71 @@
+{
+  "clientes": [
+    {
+      "clienteId": 1,
+      "nome": "Andre",
+      "cpf": "1",
+      "telefone": "2"
+    }
+  ],
+  "mecanicos": [
+    {
+      "mecanicoId": 1,
+      "especialidade": "Engenheiro Mecanico",
+      "nome": "Nilton",
+      "cpf": "2",
+      "telefone": "2"
+    }
+  ],
+  "veiculos": [
+    {
+      "numeroPortas": 4,
+      "tipoCombustivel": "Gasolina",
+      "placa": "x",
+      "marca": "ford",
+      "modelo": "ka",
+      "ano": 2010,
+      "proprietario": {
+        "clienteId": 1,
+        "nome": "Andre",
+        "cpf": "1",
+        "telefone": "2"
+      }
+    }
+  ],
+  "ordensServico": [
+    {
+      "osId": 1,
+      "dataAbertura": "Jun 12, 2025, 7:07:28 PM",
+      "cliente": {
+        "clienteId": 1,
+        "nome": "Andre",
+        "cpf": "1",
+        "telefone": "2"
+      },
+      "veiculo": {
+        "numeroPortas": 4,
+        "tipoCombustivel": "Gasolina",
+        "placa": "x",
+        "marca": "ford",
+        "modelo": "ka",
+        "ano": 2010,
+        "proprietario": {
+          "clienteId": 1,
+          "nome": "Andre",
+          "cpf": "1",
+          "telefone": "2"
+        }
+      },
+      "mecanicoResponsavel": {
+        "mecanicoId": 1,
+        "especialidade": "Engenheiro Mecanico",
+        "nome": "Nilton",
+        "cpf": "2",
+        "telefone": "2"
+      },
+      "servicosRealizados": [],
+      "status": "Aberta",
+      "valorTotal": 0.0
+    }
+  ]
+}
